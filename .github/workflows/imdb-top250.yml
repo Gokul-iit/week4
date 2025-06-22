@@ -26,7 +26,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --local user.email "24ds1000021@ds.study.iitm.ac.in"
-          git config --local user.name "Gokul Rajakalappan"
+          git config --local user.name "24ds1000021@ds.study.iitm.ac.in"
           git add *.json
           git commit -m "Update IMDb Top 250 data for 24ds1000021 [skip ci]" || exit 0
           git push
