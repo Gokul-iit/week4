@@ -28,5 +28,5 @@ jobs:
           git config --local user.email "24ds1000021@ds.study.iitm.ac.in"
           git config --local user.name "Gokul Rajakalappan"
           git add *.json
-          git commit -m "Update IMDb Top 250 data [skip ci]" || exit 0
+          git commit -m "Update IMDb Top 250 data for 24ds1000021 [skip ci]" || exit 0
           git push
